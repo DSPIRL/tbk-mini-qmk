@@ -23,3 +23,8 @@
 #define ENABLE_RGB_MATRIX_PIXEL_FRACTAL
 #define ENABLE_RGB_MATRIX_BAND_SAT
 #define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
+
+// The USB half is always the right (MASTER_RIGHT), so give it its own
+// Bootmagic key: hold Del (top outer key) while plugging in to clear EEPROM.
+#define BOOTMAGIC_ROW_RIGHT 4
+#define BOOTMAGIC_COLUMN_RIGHT 0
